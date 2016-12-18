@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<link type="text/css" rel="stylesheet" href="css/ali.css" />
+		<meta name="description" content="Muhammad Ali"/>
+		<meta name="keywords" content="Boxing, Legend, American, Boxer, Champion, Muhammad, Ali, Muslim, Icon"/>
+		<meta name="author" content="Luzolo Sebastiao"/>
+		<meta charset="UTF-8">
+		<title>Muhammad ali</title>
+	</head>
+  	
+	<body>	
+			<div id="nav">	
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a class="active" href="achievements.html">ACHIEVEMENTS</a></li>
+					<li><a href="legacy.html">LEGACY</a></li>
+				</ul>	
+			</div>
+			
+			<div id="background">
+				<img alt="Muhammad" src="images/pictures/ali.jpg"/>
+			</div>
+			
+<script>
+{
+var name = prompt ('Your name','');
+var color = prompt ('Color name','');
+document.write("<CENTER><FONT FACE=ARIAdL,VERDANA COLOR="+color+" SIZE=5>Welcome To Ali's page "+name+".</FONT><HR NOSHADE WIDTH=450></CENTER><P>")
+}
+</script>
+
+<div class="Myslider1" style="max-width:500px">
+  <img class="mySlides" src="images/pictures/sportsman1.jpg" style="width:100%">
+  <img class="mySlides" src="images/pictures/sportsman2.jpg" style="width:100%">
+  <img class="mySlides" src="images/pictures/sportsman3.jpg" style="width:100%">
+  <img class="mySlides" src="images/pictures/sportsman4.jpg" style="width:100%">
+  <img class="mySlides" src="images/pictures/sportsman5.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+			
+<h1>Awards and achievements Muhammad ali </h1>
+
+<p> He was honored with a number of titles including, ‘The Greatest’, ‘Fighter of the Year’, ‘Sportsman of the Year’, Sportsman of the Century and ‘Sports Personality of the Century’.
+</p>
+
+<p>
+He was the proud recipient of the Presidential Citizens Medal and Presidential Medal of Freedom, which he received in in 2005 by then President George W. Bush.
+</p>
+
+<p>
+He was inducted in the International Boxing Hall of Fame. He is even honored with a star on the Hollywood Walk of Fame at 6801 Hollywood Boulevard.
+</p>
+			
+	</body>
+</html>
